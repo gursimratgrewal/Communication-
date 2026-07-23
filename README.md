@@ -1,86 +1,118 @@
-# Communication
+# communication
 
-A lightweight **data visualization library** for building clear, expressive charts and graphs.
-
-> Communication is about turning raw data into visuals that people actually understand. This library aims to make that fast, consistent, and pleasant to work with.
+Lightweight helpers for **summarizing and understanding tabular data**. Point
+it at a pandas `DataFrame` and get a fast, readable first look — which columns
+are numeric, where the missing values are, and the key statistics for every
+numeric field.
 
 ---
 
 ## ✨ Features
 
-- 📊 **Core chart types** — bar, line, scatter, area, and pie charts
-- 🎨 **Theming** — consistent color palettes that work in light and dark modes
-- ⚡ **Lightweight** — minimal dependencies and a small footprint
-- 🧩 **Composable API** — build complex visualizations from simple building blocks
-- ♿ **Accessible** — sensible defaults for color contrast and labels
+- 🔢 **`numeric_columns`** — list the numeric columns (booleans excluded)
+- 🏷️ **`categorical_columns`** — list the non-numeric columns
+- 🕳️ **`missing`** — per-column count and percentage of missing values
+- 📊 **`summarize`** — descriptive statistics *plus* missing-value info in one table
 
-> **Note:** This project is in early development. The feature list above describes the intended direction — check the [Roadmap](#-roadmap) for current status.
+All functions take a `pandas.DataFrame` and return plain pandas objects, so
+results drop straight into the rest of your workflow.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation
 
-### Installation
+Install directly from the repository:
 
 ```bash
-# Once published, install via your package manager
-npm install communication
+pip install git+https://github.com/gursimratgrewal/communication-.git
 ```
 
-### Quick Example
+Or clone and install in editable mode for development:
 
-```js
-import { Chart } from "communication";
-
-const chart = new Chart("#container", {
-  type: "bar",
-  data: {
-    labels: ["Jan", "Feb", "Mar", "Apr"],
-    values: [40, 55, 30, 70],
-  },
-});
-
-chart.render();
+```bash
+git clone https://github.com/gursimratgrewal/communication-.git
+cd communication-
+pip install -e ".[dev]"
 ```
+
+Requires Python 3.9+ and pandas.
 
 ---
 
 ## 📖 Usage
 
-Each chart is created by passing a container selector and a configuration object:
+```python
+import pandas as pd
+import communication as comm
 
-| Option   | Type     | Description                                  |
-| -------- | -------- | -------------------------------------------- |
-| `type`   | `string` | Chart type (`bar`, `line`, `scatter`, ...)   |
-| `data`   | `object` | The dataset to visualize                     |
-| `theme`  | `string` | Optional theme name (`light` / `dark`)       |
-| `width`  | `number` | Chart width in pixels                        |
-| `height` | `number` | Chart height in pixels                       |
+df = pd.DataFrame({
+    "age":    [25, 30, None, 45],
+    "score":  [1.5, 2.5, 3.5, 4.5],
+    "name":   ["a", "b", "c", None],
+    "active": [True, False, True, True],
+})
+
+comm.numeric_columns(df)
+# ['age', 'score']
+
+comm.categorical_columns(df)
+# ['name', 'active']
+
+comm.missing(df)
+#        count  percent
+# age        1     25.0
+# name       1     25.0
+# score      0      0.0
+# active     0      0.0
+
+comm.summarize(df)
+#        count  missing  missing_percent  mean  std  min  25%  50%  75%   max
+# age        3        1             25.0  33.3  ...  25.0 ...  30.0 ...  45.0
+# score      4        0              0.0   3.0  ...   1.5 ...   3.0 ...   4.5
+```
+
+---
+
+## 🧩 API
+
+| Function                       | Returns            | Description                                                        |
+| ------------------------------ | ------------------ | ------------------------------------------------------------------ |
+| `numeric_columns(df)`          | `list[str]`        | Names of numeric columns (booleans excluded).                      |
+| `categorical_columns(df)`      | `list[str]`        | Names of non-numeric columns (complement of the above).            |
+| `missing(df)`                  | `DataFrame`        | `count` and `percent` missing per column, sorted worst-first.      |
+| `summarize(df)`                | `DataFrame`        | Count, missing info, mean, std, min, quartiles and max per column. |
+
+Passing anything other than a `DataFrame` raises `TypeError`.
+
+---
+
+## 🧪 Development
+
+```bash
+pip install -e ".[dev]"
+pytest
+```
 
 ---
 
 ## 🗺 Roadmap
 
-- [ ] Core rendering engine
-- [ ] Bar and line charts
-- [ ] Scatter and area charts
-- [ ] Theming and color palettes
-- [ ] Interactivity (tooltips, zoom, hover)
-- [ ] Documentation site with live examples
+- [x] `numeric_columns`, `categorical_columns`, `missing`, `summarize`
+- [ ] Value-count / cardinality helpers for categorical columns
+- [ ] Correlation and outlier summaries
+- [ ] Optional plotting integration
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! To get started:
-
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/my-feature`)
-3. Commit your changes
+3. Add tests and make them pass with `pytest`
 4. Open a pull request
 
 ---
 
 ## 📄 License
 
-This project is released under the [MIT License](LICENSE).
+Released under the [MIT License](LICENSE).
