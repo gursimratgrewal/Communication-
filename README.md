@@ -73,6 +73,29 @@ comm.summarize(df)
 
 ---
 
+## 📊 Sample dataset & visuals
+
+A runnable demo lives in [`examples/demo.py`](examples/demo.py). It generates a
+reproducible sample dataset ([`examples/sample_sales.csv`](examples/sample_sales.csv),
+240 rows of coffee-shop sales), summarizes it with this package, and renders the
+charts below:
+
+```bash
+pip install -e ".[examples]"
+python examples/demo.py
+```
+
+| | |
+| :---: | :---: |
+| ![Total revenue by region](examples/figures/revenue_by_region.png) | ![Distribution of units sold](examples/figures/units_distribution.png) |
+| ![Revenue by region and product](examples/figures/revenue_by_region_and_product.png) | ![Missing values by column](examples/figures/missing_values.png) |
+
+The **missing values** chart is driven directly by `communication.missing()`,
+and the printed summary comes from `communication.summarize()` — so the visuals
+double as a demonstration of the API.
+
+---
+
 ## 🧩 API
 
 | Function                       | Returns            | Description                                                        |

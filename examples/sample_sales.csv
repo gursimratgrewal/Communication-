@@ -1,0 +1,241 @@
+region,product,units_sold,revenue,customer_rating,returns
+North,Espresso,38,105.13,3.4,5.0
+West,Latte,100,458.86,3.6,3.0
+East,Espresso,33,75.28,4.2,3.0
+South,Latte,96,454.14,5.0,4.0
+South,Latte,58,266.53,3.4,0.0
+West,Espresso,31,105.7,4.2,5.0
+North,Cold Brew,43,206.44,5.0,5.0
+East,Latte,66,309.21,3.1,5.0
+North,Cold Brew,92,476.03,3.3,4.0
+North,Espresso,74,225.49,3.8,6.0
+East,Espresso,112,339.52,3.8,7.0
+West,Latte,104,472.06,,4.0
+East,Espresso,91,260.05,,3.0
+West,Espresso,74,219.79,,0.0
+East,Latte,38,168.71,4.4,6.0
+West,Espresso,52,161.75,3.8,7.0
+East,Cold Brew,18,105.0,4.9,5.0
+North,Espresso,48,128.12,3.7,6.0
+West,Espresso,111,331.12,3.7,6.0
+South,Latte,53,260.72,4.4,6.0
+East,Cold Brew,18,78.85,4.6,4.0
+South,Espresso,79,224.67,4.4,0.0
+North,Espresso,115,348.03,3.1,0.0
+West,Cold Brew,104,532.67,4.4,1.0
+West,Cold Brew,36,180.17,3.5,3.0
+East,Latte,57,276.43,4.2,5.0
+South,Latte,66,309.85,3.2,3.0
+West,Latte,33,161.13,4.4,0.0
+East,Latte,35,165.81,3.6,1.0
+South,Latte,32,178.91,3.3,7.0
+South,Espresso,119,353.92,4.5,7.0
+North,Espresso,90,239.95,,3.0
+North,Espresso,101,327.06,3.7,6.0
+East,Cold Brew,98,483.13,5.0,5.0
+West,Latte,115,519.12,,7.0
+North,Latte,17,96.14,4.1,
+West,Latte,106,452.97,4.3,5.0
+West,Cold Brew,12,41.23,3.7,3.0
+South,Espresso,59,152.98,4.4,5.0
+East,Espresso,73,207.09,3.8,2.0
+North,Espresso,46,144.59,,2.0
+West,Latte,21,102.36,4.9,4.0
+East,Cold Brew,27,139.14,3.5,4.0
+South,Latte,99,424.31,2.7,4.0
+North,Latte,41,149.85,5.0,3.0
+West,Cold Brew,40,200.82,5.0,3.0
+South,Espresso,111,325.92,3.9,0.0
+West,Latte,21,101.39,2.9,4.0
+East,Latte,110,505.53,3.9,4.0
+West,Latte,110,497.07,3.9,7.0
+West,Cold Brew,73,376.4,4.0,4.0
+North,Espresso,24,75.44,3.4,3.0
+South,Cold Brew,22,117.95,4.4,0.0
+South,Espresso,37,100.43,4.4,1.0
+South,Latte,71,316.81,3.2,2.0
+North,Latte,22,101.95,4.5,3.0
+East,Cold Brew,57,297.31,5.0,2.0
+North,Latte,18,75.09,4.2,3.0
+East,Espresso,67,208.82,3.9,6.0
+East,Espresso,7,17.01,4.0,1.0
+West,Latte,86,385.24,4.5,2.0
+East,Cold Brew,11,67.44,3.1,1.0
+South,Espresso,27,51.1,4.2,2.0
+West,Cold Brew,25,105.55,3.9,5.0
+South,Latte,100,427.77,5.0,0.0
+South,Espresso,11,-2.0,4.0,2.0
+West,Espresso,54,151.83,5.0,0.0
+South,Latte,72,335.24,3.4,7.0
+North,Espresso,64,187.73,4.5,5.0
+South,Espresso,83,251.97,4.3,1.0
+West,Latte,97,452.84,3.6,1.0
+North,Cold Brew,50,269.92,4.2,0.0
+South,Espresso,100,298.96,4.8,
+North,Espresso,41,143.3,3.9,6.0
+East,Espresso,118,355.38,3.1,
+South,Latte,63,270.94,4.1,7.0
+South,Cold Brew,89,436.08,3.6,2.0
+North,Cold Brew,105,502.79,3.9,2.0
+East,Cold Brew,96,466.68,,3.0
+East,Cold Brew,102,504.63,3.1,1.0
+West,Espresso,66,210.05,,7.0
+South,Espresso,9,52.81,4.4,1.0
+North,Latte,61,253.77,,3.0
+West,Cold Brew,25,130.89,2.6,4.0
+East,Cold Brew,107,519.39,4.6,0.0
+East,Espresso,32,103.12,4.3,3.0
+North,Espresso,31,91.03,3.7,3.0
+South,Espresso,33,71.54,3.3,2.0
+West,Espresso,78,247.92,4.6,1.0
+West,Latte,70,305.92,4.3,
+South,Latte,114,504.99,5.0,0.0
+West,Latte,52,217.95,4.4,3.0
+West,Espresso,37,101.19,4.3,0.0
+South,Cold Brew,10,56.42,4.0,7.0
+West,Latte,5,19.66,4.6,1.0
+South,Cold Brew,47,239.93,4.5,5.0
+North,Cold Brew,111,560.43,4.9,
+East,Espresso,65,214.81,3.8,3.0
+East,Espresso,107,315.86,3.8,7.0
+North,Cold Brew,16,57.85,3.8,0.0
+West,Latte,15,83.51,4.6,1.0
+North,Espresso,100,295.03,5.0,2.0
+West,Latte,17,93.22,3.8,1.0
+North,Latte,10,50.75,3.8,2.0
+West,Cold Brew,51,253.03,4.3,2.0
+West,Espresso,111,338.23,,6.0
+West,Cold Brew,84,449.27,4.7,2.0
+East,Cold Brew,16,111.15,2.7,7.0
+South,Espresso,101,304.04,3.6,6.0
+East,Espresso,102,308.4,3.6,
+South,Latte,97,452.64,2.7,0.0
+West,Espresso,108,311.32,3.5,7.0
+East,Espresso,32,101.0,,4.0
+South,Latte,117,526.11,,7.0
+East,Cold Brew,41,209.71,4.8,2.0
+East,Cold Brew,97,472.5,4.0,7.0
+North,Espresso,71,189.16,3.5,4.0
+North,Cold Brew,94,438.91,4.1,0.0
+North,Espresso,77,214.24,4.7,3.0
+North,Cold Brew,78,383.12,3.5,1.0
+South,Cold Brew,75,370.6,3.6,7.0
+East,Cold Brew,94,499.06,4.4,2.0
+East,Espresso,89,283.59,4.0,1.0
+South,Cold Brew,20,85.57,4.5,4.0
+West,Espresso,99,302.22,4.1,3.0
+East,Latte,66,290.89,4.5,0.0
+North,Latte,42,184.73,3.5,6.0
+West,Espresso,64,194.78,4.1,6.0
+East,Espresso,116,357.29,4.0,5.0
+East,Cold Brew,103,509.91,,4.0
+East,Latte,100,465.96,3.2,3.0
+East,Latte,58,243.87,4.5,4.0
+North,Latte,95,427.6,3.9,4.0
+East,Latte,49,259.47,3.5,1.0
+West,Cold Brew,83,418.35,4.0,0.0
+South,Espresso,78,255.5,4.8,2.0
+East,Cold Brew,33,166.37,2.7,3.0
+North,Cold Brew,35,183.71,3.2,1.0
+South,Latte,12,53.15,3.5,0.0
+South,Espresso,21,60.44,5.0,6.0
+West,Espresso,54,150.31,4.3,2.0
+North,Cold Brew,59,301.45,,4.0
+South,Cold Brew,23,102.23,3.4,4.0
+South,Espresso,52,165.98,3.4,5.0
+West,Espresso,74,238.28,4.4,5.0
+West,Espresso,31,98.5,4.1,2.0
+North,Espresso,43,124.71,4.4,6.0
+North,Cold Brew,47,241.81,4.0,2.0
+West,Cold Brew,63,310.37,,6.0
+North,Espresso,47,155.03,4.2,3.0
+West,Cold Brew,89,417.53,4.6,
+South,Espresso,42,120.97,4.6,6.0
+West,Latte,54,213.14,3.1,0.0
+South,Latte,48,193.57,2.8,6.0
+South,Cold Brew,26,150.46,4.7,0.0
+East,Cold Brew,83,428.43,,1.0
+North,Espresso,32,85.21,,4.0
+East,Espresso,39,94.46,3.0,
+East,Espresso,96,243.53,4.2,3.0
+West,Espresso,114,333.85,4.7,0.0
+West,Cold Brew,82,446.31,5.0,1.0
+East,Cold Brew,110,556.52,4.4,7.0
+South,Espresso,103,300.61,3.9,5.0
+South,Cold Brew,60,306.98,3.6,0.0
+South,Latte,93,395.09,,3.0
+West,Latte,42,184.54,3.9,2.0
+South,Latte,57,257.99,3.5,1.0
+North,Espresso,66,196.71,5.0,6.0
+South,Cold Brew,115,586.86,5.0,4.0
+North,Espresso,102,311.17,4.8,
+North,Espresso,61,193.02,3.5,
+North,Espresso,80,229.67,4.6,3.0
+West,Espresso,28,97.47,4.5,0.0
+East,Espresso,97,315.43,4.4,3.0
+East,Espresso,68,189.45,4.8,1.0
+South,Cold Brew,66,316.68,4.5,1.0
+East,Cold Brew,93,485.04,4.5,7.0
+North,Espresso,77,228.13,4.5,5.0
+West,Espresso,13,60.06,4.3,1.0
+East,Latte,38,164.36,3.0,6.0
+West,Cold Brew,25,146.83,,4.0
+North,Cold Brew,89,446.97,3.8,6.0
+South,Cold Brew,9,48.87,,5.0
+East,Latte,28,149.47,5.0,2.0
+South,Latte,73,323.07,5.0,4.0
+South,Espresso,84,237.88,4.9,4.0
+North,Cold Brew,62,303.27,4.3,5.0
+South,Cold Brew,103,521.79,,1.0
+North,Espresso,110,306.51,,2.0
+South,Cold Brew,20,109.56,4.2,1.0
+East,Espresso,114,333.92,3.4,2.0
+East,Cold Brew,75,392.22,4.3,1.0
+East,Cold Brew,78,354.09,4.1,0.0
+South,Espresso,15,33.2,3.3,7.0
+West,Latte,76,316.7,4.1,0.0
+North,Espresso,88,251.61,4.1,7.0
+South,Latte,71,323.21,5.0,0.0
+North,Cold Brew,14,67.31,4.6,6.0
+South,Espresso,65,191.2,4.1,2.0
+West,Latte,112,501.61,4.2,4.0
+South,Cold Brew,88,443.05,4.1,2.0
+West,Espresso,20,44.87,4.0,3.0
+South,Espresso,115,355.6,3.5,3.0
+East,Latte,115,527.44,4.0,4.0
+South,Latte,24,113.78,3.7,3.0
+South,Latte,97,444.85,3.3,4.0
+West,Espresso,51,157.45,4.4,6.0
+West,Cold Brew,73,395.53,4.3,3.0
+South,Latte,56,250.69,3.0,2.0
+West,Espresso,95,280.39,,1.0
+South,Cold Brew,119,583.7,4.7,2.0
+East,Cold Brew,96,464.52,4.7,1.0
+West,Latte,112,485.33,4.7,
+South,Espresso,113,325.67,4.1,7.0
+East,Latte,15,66.44,3.6,0.0
+South,Latte,34,158.01,,3.0
+North,Espresso,88,264.77,4.3,6.0
+North,Latte,72,312.52,,7.0
+South,Cold Brew,10,63.5,4.9,1.0
+West,Espresso,15,56.09,4.8,1.0
+North,Cold Brew,64,317.61,,2.0
+South,Espresso,75,215.21,3.4,4.0
+East,Cold Brew,24,128.23,3.9,7.0
+North,Latte,24,110.82,4.2,1.0
+East,Espresso,19,35.28,4.0,1.0
+South,Cold Brew,69,343.98,3.8,2.0
+West,Espresso,5,18.93,,6.0
+East,Latte,70,301.5,3.8,0.0
+East,Espresso,59,179.85,3.7,3.0
+North,Cold Brew,58,268.18,4.3,0.0
+South,Cold Brew,83,435.04,3.9,1.0
+West,Cold Brew,65,343.72,4.2,7.0
+North,Latte,88,392.21,4.3,0.0
+West,Latte,92,419.45,3.4,2.0
+South,Latte,110,458.85,3.8,7.0
+East,Cold Brew,96,462.65,5.0,4.0
+East,Cold Brew,64,315.59,3.4,0.0
+South,Espresso,61,166.92,2.8,3.0
+South,Latte,32,154.72,3.0,7.0
+East,Espresso,73,248.96,,
